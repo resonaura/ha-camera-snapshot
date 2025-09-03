@@ -2,6 +2,9 @@ import express from 'express';
 import fetch from 'node-fetch';
 import fs from 'fs';
 import path from 'path';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
 const PORT = 1985;
