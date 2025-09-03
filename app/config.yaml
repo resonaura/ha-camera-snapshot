@@ -10,8 +10,6 @@ arch:
   - i386
 init: false
 startup: services
-services:
-  - mqtt:need
 boot: auto
 host_network: true
 apparmor: true
@@ -25,7 +23,7 @@ options:
     - name: "side"
       url: "http://homeassistant.local:XXXX/api/frame.jpeg?src=camera2"
 schema:
-  interval: int(5, 60)
+  interval: int(5,60)
   cameras:
     - name: str
       url: str
