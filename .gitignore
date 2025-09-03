@@ -1,0 +1,6 @@
+node_modules
+dist
+storage
+.env
+package-lock.json
+snapshots
